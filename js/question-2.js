@@ -1,7 +1,6 @@
 //Question 2
 
-const API_URL =
-  "https://api.rawg.io/api/games?key=2d92eb2091f640b5b18969241a1d2394&dates=2019-01-01,2019-12-31&ordering=-rating";
+const API_URL = "https://api.rawg.io/api/games?key=2d92eb2091f640b5b18969241a1d2394&dates=2019-01-01,2019-12-31&ordering=-rating";
 const resultContainer = document.querySelector(".list");
 const loadingElement = document.querySelector(".loading");
 const errorMessage = document.querySelector(".error");
